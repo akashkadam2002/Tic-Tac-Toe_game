@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-image: url("https://img.freepik.com/free-vector/gradient-geometric-background_23-2148808999.jpg"); */
+    background-size: cover;
+    background-color: silver;
+    color: black;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+span {
+    color: orangered;
+    box-shadow: 0 0 1rem rgba(230, 72, 198, 0.3);
+}
+
+.container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 230px;
+    width: 230px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.box {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(105, 170, 205);
+    border-radius: 12px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
+    font-size: 40px;
+    color: black;
+}
+
+#reset {
+    font-size: 25px;
+    border-radius: 12px;
+    padding: 8px;
+    color: black;
+    font-weight: 540;
+    background-color: black;
+    color: white;
+}
+
+
+#new_btn {
+    font-size: 25px;
+    border-radius: 12px;
+    padding: 8px;
+    color: black;
+    font-weight: 540;
+    background-color: black;
+    color: white;
+}
+
+p {
+    padding-top: 20px;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 40px;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+}
